@@ -1,5 +1,21 @@
 # Next + Netlify Starter
 
+## Repository status
+
+This checkout is a historical starter copy with Next 12, React 17 and the
+Netlify Next plugin 4 declared in `package.json`. It has an npm lockfile but no
+Node engine/pin, test command or verified current runtime baseline. Treat the
+upstream starter instructions and deploy buttons below as historical examples,
+not confirmation that this copy owns the linked Netlify site.
+
+Before reuse, confirm the intended site and hosting owner, choose a supported
+runtime/framework baseline, and update dependencies in a separate reviewed
+change. Use a disposable checkout for installation/build validation and record
+the runtime plus `npm ci` / `npm run build` results. Do not connect hosting,
+click one-click deployment buttons, or publish while assessing this reference.
+The current live deployment state and the badge's relationship to this repository
+are unverified. No deployment or dependency upgrade accompanies this handoff.
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
 
 This is a [Next.js](https://nextjs.org/) v12 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
